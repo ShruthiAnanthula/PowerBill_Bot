@@ -1,0 +1,14 @@
+﻿{
+  "Id": "Xlrj91tjSUKa9cuLClAa6g",
+  "Reference": "doS9gfB2VkWSEyWFNt62gA/Xlrj91tjSUKa9cuLClAa6g",
+  "ParentRef": "doS9gfB2VkWSEyWFNt62gA/y-ZkGKD1E0mfaaNr9H1KoQ",
+  "Name": "Click 'PAYMENTS'",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Created": "2022-05-23T18:59:50.4394333Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=22.4.4.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=22.4.1.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2022-05-23T18:59:50.4394333Z"
+}
