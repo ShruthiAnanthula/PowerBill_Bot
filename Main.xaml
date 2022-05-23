@@ -1,4 +1,4 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="Main" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="797.6,1768" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:si="clr-namespace:System.IO;assembly=mscorlib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="1019,1582" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:si="clr-namespace:System.IO;assembly=mscorlib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <TextExpression.NamespacesForImplementation>
     <scg:List x:TypeArguments="x:String" Capacity="66">
       <x:String>System.Activities</x:String>
@@ -63,7 +63,6 @@
       <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
       <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
       <AssemblyReference>System.ServiceModel</AssemblyReference>
-      <AssemblyReference>System.Runtime.WindowsRuntime</AssemblyReference>
       <AssemblyReference>Microsoft.Bcl.AsyncInterfaces</AssemblyReference>
       <AssemblyReference>System.ValueTuple</AssemblyReference>
       <AssemblyReference>System.ComponentModel.Composition</AssemblyReference>
@@ -74,25 +73,25 @@
       <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
     </scg:List>
   </TextExpression.ReferencesForImplementation>
-  <Sequence sap:VirtualizedContainerService.HintSize="688.8,1703.2" sap2010:WorkflowViewState.IdRef="Sequence_2">
+  <Sequence sap:VirtualizedContainerService.HintSize="691,1517" sap2010:WorkflowViewState.IdRef="Sequence_2">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <uix:NApplicationCard WebDriverMode="{x:Null}" AttachMode="ByInstance" DisplayName="Power_Bill_Bot" sap:VirtualizedContainerService.HintSize="647.2,1610.4" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="1740ad7a-1e53-4985-89a6-bd8707f22c75" Version="V1" WindowResize="Maximize">
+    <uix:NApplicationCard WebDriverMode="{x:Null}" AttachMode="ByInstance" DisplayName="Power_Bill_Bot" sap:VirtualizedContainerService.HintSize="649,1425" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="1740ad7a-1e53-4985-89a6-bd8707f22c75" Version="V1" WindowResize="Maximize">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="613.6,1393.6" sap2010:WorkflowViewState.IdRef="Sequence_1">
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="615,1169" sap2010:WorkflowViewState.IdRef="Sequence_1">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <ui:ForEachFileX DisplayName="For Each File in Folder" Folder="C:\Users\shrut\OneDrive\Documents\UiPath\PowerBill_Bot\Input\Payments" sap:VirtualizedContainerService.HintSize="572,1299.2" sap2010:WorkflowViewState.IdRef="ForEachFileX_1" IncludeSubDirectories="False" OrderBy="NameAscFirst" SkipFolderWithoutPermission="False">
+            <ui:ForEachFileX DisplayName="For Each File in Folder" Folder="C:\Users\dinesh\Desktop\UiPath\PowerBill_Bot\Input\Payments" sap:VirtualizedContainerService.HintSize="573,1075" sap2010:WorkflowViewState.IdRef="ForEachFileX_1" IncludeSubDirectories="False" OrderBy="NameAscFirst" SkipFolderWithoutPermission="False">
               <ui:ForEachFileX.Body>
                 <ActivityAction x:TypeArguments="si:FileInfo, x:Int32">
                   <ActivityAction.Argument1>
@@ -101,23 +100,11 @@
                   <ActivityAction.Argument2>
                     <DelegateInArgument x:TypeArguments="x:Int32" Name="CurrentIndex" />
                   </ActivityAction.Argument2>
-                  <Sequence DisplayName="Do : For Each" sap:VirtualizedContainerService.HintSize="538.4,1040.8" sap2010:WorkflowViewState.IdRef="Sequence_3">
+                  <Sequence DisplayName="Do : For Each" sap:VirtualizedContainerService.HintSize="539,822" sap2010:WorkflowViewState.IdRef="Sequence_3">
                     <Sequence.Variables>
-                      <Variable x:TypeArguments="x:String" Name="TransactionId">
-                        <Variable.Default>
-                          <mva:VisualBasicValue x:TypeArguments="x:String" ExpressionText="Nothing" />
-                        </Variable.Default>
-                      </Variable>
-                      <Variable x:TypeArguments="x:String" Name="Amount">
-                        <Variable.Default>
-                          <mva:VisualBasicValue x:TypeArguments="x:String" ExpressionText="Nothing" />
-                        </Variable.Default>
-                      </Variable>
-                      <Variable x:TypeArguments="x:String" Name="BillCollector">
-                        <Variable.Default>
-                          <mva:VisualBasicValue x:TypeArguments="x:String" ExpressionText="Nothing" />
-                        </Variable.Default>
-                      </Variable>
+                      <Variable x:TypeArguments="x:String" Default="[Nothing]" Name="TransactionId" />
+                      <Variable x:TypeArguments="x:String" Default="[Nothing]" Name="Amount" />
+                      <Variable x:TypeArguments="x:String" Default="[Nothing]" Name="BillCollector" />
                       <Variable x:TypeArguments="x:String" Name="PaymentType" />
                       <Variable x:TypeArguments="x:String" Name="FileName" />
                       <Variable x:TypeArguments="x:String" Name="InstallmentNumber" />
@@ -128,7 +115,7 @@
                         <x:Boolean x:Key="IsPinned">False</x:Boolean>
                       </scg:Dictionary>
                     </sap:WorkflowViewStateService.ViewState>
-                    <ui:MultipleAssign DisplayName="Multiple Assign" sap:VirtualizedContainerService.HintSize="496.8,164" sap2010:WorkflowViewState.IdRef="MultipleAssign_1">
+                    <ui:MultipleAssign DisplayName="Multiple Assign" sap:VirtualizedContainerService.HintSize="497,162" sap2010:WorkflowViewState.IdRef="MultipleAssign_1">
                       <ui:MultipleAssign.AssignOperations>
                         <scg:List x:TypeArguments="ui:AssignOperation" Capacity="8">
                           <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_1">
@@ -158,28 +145,20 @@
                         </scg:List>
                       </ui:MultipleAssign.AssignOperations>
                     </ui:MultipleAssign>
-                    <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Invoke DataExtraction workflow" sap:VirtualizedContainerService.HintSize="496.8,113.6" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_1" UnSafe="False" WorkflowFileName="DataExtraction.xaml">
+                    <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Invoke DataExtraction workflow" sap:VirtualizedContainerService.HintSize="497,112" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_1" UnSafe="False" WorkflowFileName="DataExtraction.xaml">
                       <ui:InvokeWorkflowFile.Arguments>
-                        <InArgument x:TypeArguments="x:String" x:Key="in_FilePath">
-                          <mva:VisualBasicValue x:TypeArguments="x:String" ExpressionText="CurrentFile.FullName" />
-                        </InArgument>
-                        <OutArgument x:TypeArguments="x:String" x:Key="out_TransactionID">
-                          <mva:VisualBasicReference x:TypeArguments="x:String" ExpressionText="TransactionId" />
-                        </OutArgument>
-                        <OutArgument x:TypeArguments="x:String" x:Key="out_BillCollector">
-                          <mva:VisualBasicReference x:TypeArguments="x:String" ExpressionText="BillCollector" />
-                        </OutArgument>
-                        <OutArgument x:TypeArguments="x:String" x:Key="out_Amount">
-                          <mva:VisualBasicReference x:TypeArguments="x:String" ExpressionText="Amount" />
-                        </OutArgument>
+                        <InArgument x:TypeArguments="x:String" x:Key="in_FilePath">[CurrentFile.FullName]</InArgument>
+                        <OutArgument x:TypeArguments="x:String" x:Key="out_TransactionID">[TransactionId]</OutArgument>
+                        <OutArgument x:TypeArguments="x:String" x:Key="out_BillCollector">[BillCollector]</OutArgument>
+                        <OutArgument x:TypeArguments="x:String" x:Key="out_Amount">[Amount]</OutArgument>
                       </ui:InvokeWorkflowFile.Arguments>
                     </ui:InvokeWorkflowFile>
-                    <uix:NClick ClickType="Single" DisplayName="Click: Payments" sap:VirtualizedContainerService.HintSize="496.8,157.6" sap2010:WorkflowViewState.IdRef="NClick_1" InteractionMode="Simulate" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="1740ad7a-1e53-4985-89a6-bd8707f22c75" Version="V1">
+                    <uix:NClick ClickType="Single" DisplayName="Click: Payments" sap:VirtualizedContainerService.HintSize="497,156" sap2010:WorkflowViewState.IdRef="NClick_1" InteractionMode="Simulate" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="1740ad7a-1e53-4985-89a6-bd8707f22c75" Version="V1">
                       <uix:NClick.Target>
                         <uix:TargetAnchorable BrowserURL="https://botsdna.com/PayPowerBill/DAE.html" ContentHash="kZBcas21xUCiOVjBBzYVDg" DesignTimeRectangle="19, 267, 164, 58" ElementType="Button" FriendlyName="'Click 'PAYMENTS''" FullSelectorArgument="&lt;webctrl tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='BUTTON' type='' class='dropbtn' aaname='PAYMENTS        ' check:innerText='PAYMENTS' /&gt;" Guid="1d9d2983-80ed-406c-8132-8883c5bd7da1" ImageBase64="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" InformativeScreenshot="33741d8ab5a5222cc4cabbf9afd3d0e5.png" Reference="doS9gfB2VkWSEyWFNt62gA/Xlrj91tjSUKa9cuLClAa6g" ScopeSelectorArgument="&lt;html app='msedge.exe' title='https://botsdna.com/PayPowerBill/DAE.html' /&gt;" SearchSteps="FuzzySelector, Image" Visibility="Interactive" />
                       </uix:NClick.Target>
                     </uix:NClick>
-                    <Switch x:TypeArguments="x:String" DisplayName="Switch" Expression="[PaymentType]" sap:VirtualizedContainerService.HintSize="496.8,391.2" sap2010:WorkflowViewState.IdRef="Switch`1_1">
+                    <Switch x:TypeArguments="x:String" DisplayName="Switch" Expression="[PaymentType]" sap:VirtualizedContainerService.HintSize="497,178" sap2010:WorkflowViewState.IdRef="Switch`1_1">
                       <uix:NClick x:Key="DAE" ClickType="Single" DisplayName="Click: DAE Bill Payment" sap:VirtualizedContainerService.HintSize="333.6,157.6" sap2010:WorkflowViewState.IdRef="NClick_2" InteractionMode="Simulate" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="1740ad7a-1e53-4985-89a6-bd8707f22c75" Version="V1">
                         <uix:NClick.Target>
                           <uix:TargetAnchorable BrowserURL="https://botsdna.com/PayPowerBill/DAE.html" DesignTimeRectangle="19, 325, 333, 53" ElementType="Text" FriendlyName="'DAE BILL PAYMENT'" FullSelectorArgument="&lt;webctrl parentid='myDropdown' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='myDropdown' tag='A' type='' class='' aaname='DAE BILL PAYMENT' check:innerText='DAE BILL PAYMENT' /&gt;" Guid="82d79516-2814-448d-b50d-578895eef6ce" ImageBase64="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" InformativeScreenshot="352679ee7da3687f66bc7bc732b01223.png" ScopeSelectorArgument="&lt;html app='msedge.exe' title='https://botsdna.com/PayPowerBill/DAE.html' /&gt;" SearchSteps="FuzzySelector, Image" Visibility="Interactive" />
