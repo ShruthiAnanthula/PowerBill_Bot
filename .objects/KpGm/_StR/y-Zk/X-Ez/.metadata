@@ -1,0 +1,14 @@
+﻿{
+  "Id": "X-Ez3pAgU0eMD2UuT6yKgw",
+  "Reference": "doS9gfB2VkWSEyWFNt62gA/X-Ez3pAgU0eMD2UuT6yKgw",
+  "ParentRef": "doS9gfB2VkWSEyWFNt62gA/y-ZkGKD1E0mfaaNr9H1KoQ",
+  "Name": "Click: EB Bill Payment",
+  "Type": "Element",
+  "TaxonomyType": "Link",
+  "Created": "2022-05-24T09:49:08.8230079Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=22.4.4.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=22.4.1.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2022-05-24T09:49:08.8230079Z"
+}

@@ -1,0 +1,14 @@
+﻿{
+  "Id": "1etqydt0p0GKjxNmgcDeFw",
+  "Reference": "doS9gfB2VkWSEyWFNt62gA/1etqydt0p0GKjxNmgcDeFw",
+  "ParentRef": "doS9gfB2VkWSEyWFNt62gA/y-ZkGKD1E0mfaaNr9H1KoQ",
+  "Name": "Click: Paynow",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Created": "2022-05-24T09:56:48.1791536Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=22.4.4.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=22.4.1.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2022-05-24T09:56:48.1791536Z"
+}

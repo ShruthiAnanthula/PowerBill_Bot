@@ -1,0 +1,14 @@
+﻿{
+  "Id": "6tCNAza8o0S-B6aTiMXL4w",
+  "Reference": "doS9gfB2VkWSEyWFNt62gA/6tCNAza8o0S-B6aTiMXL4w",
+  "ParentRef": "doS9gfB2VkWSEyWFNt62gA/y-ZkGKD1E0mfaaNr9H1KoQ",
+  "Name": "Type Into: Math Result",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Created": "2022-05-24T09:55:21.4160435Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=22.4.4.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=22.4.1.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2022-05-24T09:55:21.4160435Z"
+}

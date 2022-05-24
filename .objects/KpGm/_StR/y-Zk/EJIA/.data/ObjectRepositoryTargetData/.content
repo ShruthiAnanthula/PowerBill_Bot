@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="RE3ZKdzWTUCzX2eQ2_3OZg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://botsdna.com/PayPowerBill/DN.html" DesignTimeRectangle="868, 457, 89, 37" ElementType="DropDown" FriendlyName="'AM'" FullSelectorArgument="&lt;webctrl tableRow='4' tag='TABLE' /&gt;&lt;webctrl tableRow='1' tag='SELECT' innertext='AM*' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl type='' tag='SELECT' innertext='AM*' class='' aaname='' /&gt;" Guid="5f22c4e2-079d-41c9-b311-3edb6ca62b05" ScopeSelectorArgument="&lt;html app='msedge.exe' title='https://botsdna.com/PayPowerBill/*l' /&gt;" SearchSteps="Selector" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="abe8bd4e8a26204cd1f937e646f47249.png" xmlns="">0XB7XWtVfIUGx2SoD9_KleQ</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

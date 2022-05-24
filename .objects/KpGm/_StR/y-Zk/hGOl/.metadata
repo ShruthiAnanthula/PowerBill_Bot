@@ -1,0 +1,14 @@
+﻿{
+  "Id": "hGOlyg7TUEmi8S2ejm3LSw",
+  "Reference": "doS9gfB2VkWSEyWFNt62gA/hGOlyg7TUEmi8S2ejm3LSw",
+  "ParentRef": "doS9gfB2VkWSEyWFNt62gA/y-ZkGKD1E0mfaaNr9H1KoQ",
+  "Name": "Select Item: Hour",
+  "Type": "Element",
+  "TaxonomyType": "Dropdown",
+  "Created": "2022-05-24T09:51:56.8275319Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=22.4.4.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=22.4.1.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2022-05-24T09:51:56.8275319Z"
+}

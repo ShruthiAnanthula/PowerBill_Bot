@@ -1,0 +1,14 @@
+﻿{
+  "Id": "-FJ792rVZk-u8CuCvZeSng",
+  "Reference": "doS9gfB2VkWSEyWFNt62gA/-FJ792rVZk-u8CuCvZeSng",
+  "ParentRef": "doS9gfB2VkWSEyWFNt62gA/_StRmPCQFEKp21-Vm3GsHg",
+  "Name": "Adobe Acrobat Reader DC",
+  "Type": "Screen",
+  "TaxonomyType": "Screen",
+  "Created": "2022-05-24T10:14:02.2409631Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=22.4.4.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=22.4.1.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2022-05-24T10:14:02.2409631Z"
+}

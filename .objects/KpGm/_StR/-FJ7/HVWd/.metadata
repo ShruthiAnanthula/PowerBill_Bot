@@ -1,0 +1,14 @@
+﻿{
+  "Id": "HVWdElIy7kKuypSozxBvUw",
+  "Reference": "doS9gfB2VkWSEyWFNt62gA/HVWdElIy7kKuypSozxBvUw",
+  "ParentRef": "doS9gfB2VkWSEyWFNt62gA/-FJ792rVZk-u8CuCvZeSng",
+  "Name": "Get Text: Amount",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Created": "2022-05-24T10:16:10.871276Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=22.4.4.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=22.4.1.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2022-05-24T10:16:10.871276Z"
+}

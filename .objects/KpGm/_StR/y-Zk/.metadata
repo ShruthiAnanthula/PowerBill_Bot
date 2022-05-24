@@ -2,7 +2,7 @@
   "Id": "y-ZkGKD1E0mfaaNr9H1KoQ",
   "Reference": "doS9gfB2VkWSEyWFNt62gA/y-ZkGKD1E0mfaaNr9H1KoQ",
   "ParentRef": "doS9gfB2VkWSEyWFNt62gA/_StRmPCQFEKp21-Vm3GsHg",
-  "Name": "Power_Bill_Bot",
+  "Name": "Edge: Powerbill",
   "Type": "Screen",
   "TaxonomyType": "Screen",
   "Created": "2022-05-23T11:53:25.6734308Z",
@@ -10,5 +10,8 @@
     "UiPath.UIAutomationCore, Version=22.4.4.0, Culture=neutral, PublicKeyToken=null",
     "UiPath.Platform, Version=22.4.1.0, Culture=neutral, PublicKeyToken=null"
   ],
-  "Updated": "2022-05-23T11:53:25.6734308Z"
+  "Updated": "2022-05-24T10:18:23.9264051Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=22.4.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
 }

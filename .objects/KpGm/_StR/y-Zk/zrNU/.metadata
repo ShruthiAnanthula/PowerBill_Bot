@@ -1,0 +1,14 @@
+﻿{
+  "Id": "zrNUnlo_Sku_d8z8VYclGQ",
+  "Reference": "doS9gfB2VkWSEyWFNt62gA/zrNUnlo_Sku_d8z8VYclGQ",
+  "ParentRef": "doS9gfB2VkWSEyWFNt62gA/y-ZkGKD1E0mfaaNr9H1KoQ",
+  "Name": "Get Text: Success ID",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Created": "2022-05-24T09:58:04.7591078Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=22.4.4.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=22.4.1.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2022-05-24T09:58:04.7591078Z"
+}

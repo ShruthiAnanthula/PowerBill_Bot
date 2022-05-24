@@ -1,0 +1,14 @@
+﻿{
+  "Id": "D1S-DzPApEOLHkJnP248dA",
+  "Reference": "doS9gfB2VkWSEyWFNt62gA/D1S-DzPApEOLHkJnP248dA",
+  "ParentRef": "doS9gfB2VkWSEyWFNt62gA/y-ZkGKD1E0mfaaNr9H1KoQ",
+  "Name": "Type Into: Transaction ID",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Created": "2022-05-24T09:46:46.627546Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=22.4.4.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=22.4.1.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2022-05-24T09:46:46.627546Z"
+}

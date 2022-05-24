@@ -1,0 +1,14 @@
+﻿{
+  "Id": "gWTXG63wI0Czsjq6Iwu_dg",
+  "Reference": "doS9gfB2VkWSEyWFNt62gA/gWTXG63wI0Czsjq6Iwu_dg",
+  "ParentRef": "doS9gfB2VkWSEyWFNt62gA/-FJ792rVZk-u8CuCvZeSng",
+  "Name": "Get Text: Transaction ID",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Created": "2022-05-24T10:15:41.0682004Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=22.4.4.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=22.4.1.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2022-05-24T10:15:41.0682004Z"
+}
